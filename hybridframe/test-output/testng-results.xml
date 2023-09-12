@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-02T00:11:16 IST" name="Default suite" finished-at="2023-09-02T00:12:10 IST" duration-ms="54784">
+    <groups>
+    </groups>
+    <test started-at="2023-09-02T00:11:16 IST" name="Default test" finished-at="2023-09-02T00:12:10 IST" duration-ms="54784">
+      <class name="com.hrm.tests.Loginpagetest">
+        <test-method is-config="true" signature="globalobject()[pri:0, instance:com.hrm.tests.Loginpagetest@1613674b]" started-at="2023-09-02T00:11:15 IST" name="globalobject" finished-at="2023-09-02T00:11:16 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalobject -->
+        <test-method is-config="true" signature="opensetup()[pri:0, instance:com.hrm.tests.Loginpagetest@1613674b]" started-at="2023-09-02T00:11:16 IST" name="opensetup" finished-at="2023-09-02T00:11:25 IST" duration-ms="9017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opensetup -->
+        <test-method signature="appopen()[pri:1, instance:com.hrm.tests.Loginpagetest@1613674b]" started-at="2023-09-02T00:11:25 IST" name="appopen" finished-at="2023-09-02T00:11:29 IST" duration-ms="3977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appopen -->
+        <test-method is-config="true" signature="testcasseresult(org.testng.ITestResult)[pri:0, instance:com.hrm.tests.Loginpagetest@1613674b]" started-at="2023-09-02T00:11:29 IST" name="testcasseresult" finished-at="2023-09-02T00:11:29 IST" duration-ms="763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=appopen status=SUCCESS method=Loginpagetest.appopen()[pri:1, instance:com.hrm.tests.Loginpagetest@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasseresult -->
+        <test-method signature="useraddtest()[pri:2, instance:com.hrm.tests.Loginpagetest@1613674b]" started-at="2023-09-02T00:11:29 IST" name="useraddtest" finished-at="2023-09-02T00:12:06 IST" duration-ms="36311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useraddtest -->
+        <test-method is-config="true" signature="testcasseresult(org.testng.ITestResult)[pri:0, instance:com.hrm.tests.Loginpagetest@1613674b]" started-at="2023-09-02T00:12:06 IST" name="testcasseresult" finished-at="2023-09-02T00:12:06 IST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=useraddtest status=SUCCESS method=Loginpagetest.useraddtest()[pri:2, instance:com.hrm.tests.Loginpagetest@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasseresult -->
+        <test-method is-config="true" signature="closesetup()[pri:0, instance:com.hrm.tests.Loginpagetest@1613674b]" started-at="2023-09-02T00:12:06 IST" name="closesetup" finished-at="2023-09-02T00:12:10 IST" duration-ms="4472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+      </class> <!-- com.hrm.tests.Loginpagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
