@@ -4,6 +4,7 @@
 	<groupId>jyoti</groupId>
 	<artifactId>sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.googlecode.soundlibs</groupId>
@@ -19,7 +20,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.14.3</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -76,6 +77,49 @@
 			<artifactId>guava</artifactId>
 			<version>28.2-jre</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+		</dependency>
 	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.1.2</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>xmlfiles/Loginpagetest.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+			<plugin>
+
+				<artifactId>maven-compiler-plugin</artifactId>
+
+				<version>3.11.0</version>
+
+				<configuration>
+
+					<source>17</source>
+
+					<target>17</target>
+
+					<fork>true</fork>
+
+					<executable>C:\Program Files\Java\jdk-17\bin\javac</executable>
+
+				</configuration>
+
+			</plugin>
+		</plugins>
+
+
+	</build>
+
+
 </project>

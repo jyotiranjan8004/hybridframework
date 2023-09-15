@@ -38,7 +38,7 @@ public class Loginpagetest extends Global {
 		/*	add.adminclick();
 		Thread.sleep(5000);
 
-		add.addclick();;
+		add.addclick();; 
 		Thread.sleep(5000);
 		add.userroledropdown(input.getexceldata("inputdata", 1,2));
 		Thread.sleep(5000);
